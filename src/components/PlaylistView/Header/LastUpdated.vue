@@ -52,6 +52,10 @@ function deletePlaylist() {
         color: $brown;
     }
 
+    .edit > svg {
+        cursor: pointer;
+    }
+
     svg {
         transform: scale(0.75);
         margin-bottom: -0.2rem;
